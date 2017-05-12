@@ -17,7 +17,7 @@ function walls(diameter, height) {
 function materialsNeeded() {
 
 	var d = document.getElementById("across").value;
-	var h = document.getElementByID("height").value;
+	var h = document.getElementById("height").value;
 
 	var carpetNeeded = Math.ceil(floor(d));
 	var paintNeeded = Math.ceil(walls(d, h));
