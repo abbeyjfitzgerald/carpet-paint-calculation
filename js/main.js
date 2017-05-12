@@ -17,14 +17,14 @@ function walls(diameter, height) {
 function materialsNeeded() {
 
 	var d = document.getElementById("across").value;
-	var h = document.getElementById("height").value;
+	var h = document.getElementByID("height").value;
 
 	var carpetNeeded = Math.ceil(floor(d));
 	var paintNeeded = Math.ceil(walls(d, h));
 
-	console.log('Carpet needed is '+ carpetNeeded +' sqft');
+	console.log('Carpet needed is '+carpetNeeded+' sqft');
 	console.log(paintNeeded);
 
-} // end of function
+} // end of funciton
 
 
