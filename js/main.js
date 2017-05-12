@@ -23,7 +23,7 @@ function materialsNeeded() {
 	var paintNeeded = Math.ceil(walls(d, h));
 
 	console.log('Carpet needed is '+carpetNeeded+' sqft');
-	console.log(paintNeeded);
+	console.log('Paint needed is '+paintNeeded+' sqft');
 
 } // end of funciton
 
