@@ -1,4 +1,1 @@
-# carpet-paint-calculation
-# carpet-paint-calculation
-# carpet-paint-calculation
-# carpet-paint-calculation
+Simple JS practice, simple calculation. 
